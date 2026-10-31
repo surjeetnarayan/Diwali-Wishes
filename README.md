@@ -1,2 +1,2 @@
 # Diwali-Wishes
-Wish u all a Diwali 🎇
+Wish u all a Happy Diwali 🎇
