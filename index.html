@@ -64,7 +64,7 @@ button:active{transform:scale(.98)}
   <div class="divider">✧ ✦ ✧</div>
   <p class="wish">May the glow of every diya brighten your home, the sweetness of every moment fill your heart, and the year ahead bring you peace, good health, happiness and success. May your life shine as beautifully as the lights of Diwali!</p>
   <div class="divider">❈ ❈ ❈</div>
-  <p class="from">With love,<br><strong id="senderDisplay">Surjeet</strong> 💛</p>
+  <p class="from">With love,<br><strong id="senderDisplay">Surjeet Narayan.K</strong> 💛</p>
   <section class="editor">
     <label for="senderInput">Pass on the light — add your name</label>
     <input id="senderInput" maxlength="40" placeholder="Enter your name" autocomplete="name">
@@ -177,9 +177,9 @@ const input=document.getElementById('senderInput');
 const display=document.getElementById('senderDisplay');
 const status=document.getElementById('status');
 const params=new URLSearchParams(window.location.search);
-const incoming=(params.get('from')||'Surjeet').trim().slice(0,40);
-display.textContent=incoming||'Surjeet';
-input.value=incoming||'Surjeet';
+const incoming=(params.get('from')||'Surjeet Narayan.K').trim().slice(0,40);
+display.textContent=incoming||'Surjeet Narayan.K';
+input.value=incoming||'Surjeet Narayan.K';
 
 function personalisedUrl(){
   const name=input.value.trim();
